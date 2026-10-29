@@ -1,0 +1,23 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
